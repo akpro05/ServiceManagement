@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  servicemanagement:
+    image: esb_servicemgmt
+    container_name: esb_servicemgmt
+    network_mode: host
+    logging:
+      driver: syslog
+      #options:
+      #  syslog-address: "tcp://localhost:5067"

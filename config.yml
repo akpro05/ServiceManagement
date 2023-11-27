@@ -1,0 +1,24 @@
+#Copyright (C) 2020-2030 Supernet Technologies India Private Limited. All rights reserved.
+#All material appearing on this repository, folder, sub folder and file(s) (“Content/Code etc”) is protected by copyright laws and is the property of Supernet Technologies India Pvt Ltd. You may not copy, reproduce, distribute, publish, display, perform, modify, create derivative works, transmit, or in any way exploit any such content, nor may you distribute any part of this content over any network, including a local area network, sell, offer it for sale, or use such content to construct any kind of database, you may not alter or remove any copyright or other notice from copies of contents on this file.
+#Copying or storing any contents except as provided by Supernet Technologies India Pvt Ltd is expressly prohibited without prior written permission of the Supernet Technologies.
+#For permission to use the content, please contact legal@supernet-india.com.
+
+ServerURL: "127.0.0.1:9003"
+
+DBConnection: "host=127.0.0.1 user=postgres password=abhilash21 dbname=esb_system port=5432 sslmode=disable TimeZone=Asia/Kolkata"
+
+
+#Language Msgs
+
+# ---- Eng ------
+EN_NoMappedConsumer: "No Consumer Mapping exists for given Producer "
+EN_ReqUrlNotFound: "Requested URL is not included in subscribed services"
+EN_P2C_Status: "Consumer Services are currently unavailable for Producer"
+EN_Consumer_Status: "Transaction cannot be done : associated consumer is suspended"
+
+
+# ---- French ---- 
+FR_NoMappedConsumer: "Aucune correspondance de consommateur n'existe pour le producteur donné "
+FR_ReqUrlNotFound: "L'URL demandée n'est pas incluse dans les services auxquels vous êtes abonné"
+FR_P2C_Status: "Les services aux consommateurs ne sont actuellement pas disponibles pour le producteur"
+FR_Consumer_Status: "La transaction ne peut pas être effectuée : le consommateur associé est suspendu"
