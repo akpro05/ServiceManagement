@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   servicemanagement:
-    image: esb_servicemgmt
+    image: pro05/superesb-local-servicemanagement:latest
     container_name: esb_servicemgmt
     network_mode: host
     logging:
