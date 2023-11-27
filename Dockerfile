@@ -9,6 +9,8 @@ WORKDIR /
 
 COPY ServiceManagement /
 COPY config.yml /
+RUN mkdir /templates
+COPY templates /templates
 
 RUN chmod +x /ServiceManagement
 
